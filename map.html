@@ -7,7 +7,46 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" crossorigin="" />
 <link rel="script" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js" crossorigin="" />
 <link rel="script" href="https://ignf.github.io/geoportal-access-lib/latest/dist/GpServices.js" crossorigin="" />
-  
+
+<style>
+  #params {
+  width: 100%;
+  height: 200px;
+  box-shadow: 0 0 10px #999;
+  font-family: monospace;
+  padding: 5px;
+}
+
+#go {
+  padding: 5px;
+  float: center;
+  width: 100%;
+  height: 30px;
+}
+
+#map {
+  padding: 5px;
+  width: 100%;
+  height: 300px;
+  box-shadow: 0 0 10px #999;
+}
+
+#result {
+  padding: 5px;
+  width: 100%;
+  height: 200px;
+  box-shadow: 0 0 10px #999;
+  font-family: monospace;
+  overflow: scroll;
+}
+
+#info {
+  padding: 5px;
+  width: 100%;
+  height: 20px;
+  font-family: monospace;
+}
+</style>
 </head>
 <body onload="go()">
 <div id="params">
