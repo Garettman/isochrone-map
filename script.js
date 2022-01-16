@@ -23,7 +23,7 @@ function go() {
       smoothing: true,
       graph: graph,
       reverse: reverse,
-      apiKey: "i76efs3gomkp3pieg8qz0zif",
+      apiKey: "calcul",
       onSuccess: function(result) {
         resultDiv.innerHTML = "<p>" + JSON.stringify(result) + "</p>" ;
         // affichage sur la carte
