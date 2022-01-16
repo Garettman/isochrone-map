@@ -17,7 +17,7 @@ function go() {
         y: 45.331053
       },
     //  time: (method=="time" ? limit : null),
-      distance: 10000,
+      distance: 9900,
      //(method=="distance" ? limit : null),
       holes: false,
       smoothing: true,
