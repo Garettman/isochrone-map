@@ -23,7 +23,7 @@ function go() {
       smoothing: true,
       graph: graph,
       reverse: reverse,
-      apiKey: "jhyvi0fgmnuxvfv0zjzorvdn",
+      apiKey: "i76efs3gomkp3pieg8qz0zif",
       onSuccess: function(result) {
         resultDiv.innerHTML = "<p>" + JSON.stringify(result) + "</p>" ;
         // affichage sur la carte
@@ -39,7 +39,7 @@ function go() {
 }
 map = L.map("map").setView([45.331053, 5.497940], 10);
 L.tileLayer(
-  'https://wxs.ign.fr/i76efs3gomkp3pieg8qz0zif/geoportail/wmts?service=WMTS&request=GetTile&version=1.0.0&tilematrixset=PM&tilematrix={z}&tilecol={x}&tilerow={y}&layer=GEOGRAPHICALGRIDSYSTEMS.MAPS&format=image/jpeg&style=normal', {
+  'https://wxs.ign.fr/i76efs3gomkp3pieg8qz0zif/geoportail/wmts?service=WMTS&request=GetTile&version=1.0.0&tilematrixset=PM&tilematrix={z}&tilecol={x}&tilerow={y}&layer=ORTHOIMAGERY.ORTHOPHOTOS&format=image/jpeg&style=normal', {
     minZoom: 0,
     maxZoom: 18,
     tileSize: 256
